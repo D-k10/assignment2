@@ -1,0 +1,87 @@
+clear Command
+---------
+clear all the value
+driver.findElement(By.id("UserName"));
+or
+
+.sendKeys("ToolsQA");id("UserName").clear();
+||||||||||||||||||||||||||||||||
+SendKeys Command 
+--------------
+driver.findElement(By.id("UserName")).sendKeys("ToolsQA");
+
+||||||||||||||||||||||||||||||||||||
+Click Command
+driver.findElement(By.LinkText("ToolsQA")).click();
+|||||||||||||||||||||||||||
+IsDisplayed  Command
+driver.findElement(By.id("UserName")).
+isDisplayed();
+---------------
+IsEnabled Command
+Boolean Status =driver.findElement(By.id("UserName")).isEnabled();
+|||
+IsSelected Command
+
+boolean status = driver.findElement(By.id("Sex- Male")).isselected();
+---------------------
+Submit Command
+
+driver.findelement(By.id("SubmitButton")).Submit();
+---------------||||
+GetTextCommand
+driver.findElement(By.xpath("anylink"));
+String linktext = element.getText();
+------||||
+getTagName Command
+driver.findelement(By.id("SubmitButton"));
+String tagName = element.getName();
+String Name =
+driver.findelement(By.id("SubmitButton")).gettagName();
+\\\\\\\\\\\\\\\\\\\
+getCssValue Command
+
+getCssvalue():String
+command-element.getcssvalue();
+"rgba(0,255,0,1)".
+--------------
+getAttribute Command
+
+getAttribute(String Name):String
+
+WebElement element= driver.findelement(By.id("SubmitButton"));
+
+String attvalue  element.getAttribute("id");
+---------------------------
+getsize Commmand
+
+getsize():Dimension
+
+WebElement element =driver.findelement(By.id("SubmitButton"));
+Dimension dimensions = element.getsize();
+System.out.println("Height:"+ dimenisions.height+ "width:"+ dimenisons width);
+-----------------
+getlocation command
+
+getlocation():point
+
+WebElement element =driver.findelement(By.id("SubmitButton"));
+point point = element.getlocation();
+System.out.println("x cordinate:"+ point.x + "y Cordinate:" +point.y);
+--------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
